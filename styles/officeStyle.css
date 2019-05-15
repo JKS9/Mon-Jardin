@@ -1,0 +1,90 @@
+/* DOCUMENT CSS OFFICE */
+
+html, body {margin: 0; padding: 0;}
+
+/*     Contenu "menu"     */
+#Menu {float: left; width: 10%; height: 800px; background: #7c8e54;}
+#logo {width: 100%;}
+.logo_images {background-image: url("../images/icones/lotus.svg"); background-size: cover; height: 50px; width: 50px; margin: 10px auto;}
+.Menu_Left ul {margin: 0px; padding: 0px; text-align: justify; list-style: none;}
+.Menu_Left ul li {padding: 5% 0% 5% 8%; margin: 2% 0%;}
+.Menu_Left ul li:hover {background: #e8eadd}
+.Menu_Left ul li a {text-decoration: none; font-size: 15px; color: #2c2c2c; font-family: 'Oxygen', sans-serif;}
+
+/*     Contenu "Connexion"    */
+.Connexion_Form {margin: 12% auto; width: 20%; padding: 10px 0px; background: #7c8e54; border-radius: 10px;}
+.Connexion_Form p {margin: 3% 0%; padding: 10px 10px; background: red; text-align: center; color: #fff; font-family: 'Oxygen', sans-serif;}
+.Logo {background-image: url("../images/icones/lotus.svg"); background-size: cover; height: 50px; width: 50px; margin: 10px auto;}
+.Form {padding: 0px 20px;}
+.Form label {color: #fff; font-size: 16px; font-family: 'Oxygen', sans-serif;}
+.Form input {width: 94%; padding: 10px 0px 10px 10px; margin: 2% 0% 4% 0%; border: none; border-radius: 3px; font-family: 'Oxygen', sans-serif;}
+.Office_Connexion_Button input {width: 40%; border-radius: 3px; border: none; padding: 10px 0px; margin: 3% 30%; background: #e8eadd; cursor: pointer; font-family: 'Oxygen', sans-serif;}
+
+/*     Contenu "All Users"     */
+#Liste_Users {float: left; width: 80%; padding-left: 2%;}
+.Title {margin: 20px;}
+.Title h2 {margin: 20px; font-family: 'Oxygen', sans-serif;}
+.barre {width: 50%; height: 2px; background: #7c8e54; margin: 1% 0%;}
+.stat p {font-family: 'Oxygen', sans-serif;}
+.Table {width: 100%; overflow: auto; height: 690px;}
+.True {width: 30%; margin: 0px 0px 20px;}
+.True p {margin: 0; padding: 10px 20px; background: #3bb614e6; border-radius: 5px; color: #fff; font-family: 'Oxygen', sans-serif; font-weight: bold;}
+.False {width: 30%; margin: 0px 0px 20px 0px;}
+.False p {margin: 0; padding: 10px 20px; background: red; border-radius: 5px; color: #fff; font-family: 'Oxygen', sans-serif; font-weight: bold;}
+.Table table {width: 100%;}
+.Table_Menu {background: #7c8e54; font-weight: bolder;}
+.Table_Menu td {text-align: center; padding: 5px; color: #e8eadd; font-family: 'Oxygen', sans-serif;}
+.Table_User:hover {background: #e8eadd; color: #000;}
+.Table_User td {text-align: center; font-family: 'Oxygen', sans-serif;}
+.modifeActif input {background: #7c8e54; border: none; padding: 5px 20px; cursor: pointer; color: #e8eadd; font-family: 'Oxygen', sans-serif;}
+
+/*     Contenu "All Produits"     */
+#Liste_Produits {float: left; width: 80%; padding-left: 2%;}
+.Table_Produits:hover {background: #e8eadd; color: #000;}
+.Table_Produits td {text-align: center; font-family: 'Oxygen', sans-serif;}
+.Produit_Bio {font-size: 12px; text-align: justify; padding: 0px 10px;}
+
+/*     Contenu "Add Produit"     */
+#addProduits {float: left; width: 80%; padding-left: 2%;}
+.Erreur {width: 50%;}
+.Erreur p {margin: 0; padding: 10px 20px; background: red; border-radius: 5px; color: #fff; font-family: 'Oxygen', sans-serif; font-weight: bold;}
+
+.ADD_Produit_name {width: 45%; margin-bottom: 15px;}
+.ADD_Produit_name label {font-size: 15px; font-family: 'Oxygen', sans-serif;}
+.ADD_Produit_name input {width: 98%; padding: 8px 0px 8px 15px; border: none; background: #e8eadd; font-size: 18px; font-family: 'Oxygen', sans-serif; margin: 5px 0px 2px 0px;}
+.ADD_Produit_name h4 {margin: 5px 0px; font-size: 12px; font-family: 'Oxygen', sans-serif;}
+
+.ADD_Produit_Biography {width: 45%; margin-bottom: 15px;}
+.ADD_Produit_Biography label {font-size: 15px; font-family: 'Oxygen', sans-serif;}
+.ADD_Produit_Biography input {width: 98%; padding: 8px 0px 8px 15px; border: none; background: #e8eadd; font-size: 18px; font-family: 'Oxygen', sans-serif; margin: 5px 0px 2px 0px;}
+
+.ADD_Produit_Price {width: 45%; margin-bottom: 15px;}
+.ADD_Produit_Price label {font-size: 15px; font-family: 'Oxygen', sans-serif;}
+.ADD_Produit_Price input {width: 98%; padding: 8px 0px 8px 15px; border: none; background: #e8eadd; font-size: 18px; font-family: 'Oxygen', sans-serif; margin: 5px 0px 2px 0px;}
+.ADD_Produit_Price h4 {margin: 5px 0px; font-size: 12px; font-family: 'Oxygen', sans-serif;}
+
+.ADD_Produit_Actif {width: 45%; margin-bottom: 20px; padding-top: 10px;}
+.ADD_Produit_Actif label {font-size: 15px; font-family: 'Oxygen', sans-serif;}
+.ADD_Produit_Actif input {margin: 0px 20px 0px 0px;}
+.ADD_Produit_Actif h4 {margin: 5px 0px; font-size: 12px; font-family: 'Oxygen', sans-serif;}
+
+.ADD_Produit_Categories {width: 45%; margin-bottom: 15px;}
+.ADD_Produit_Categories label {font-size: 15px; font-family: 'Oxygen', sans-serif;}
+.ADD_Produit_Categories select {width: 100%; padding: 8px 0px 8px 15px; border: none; background: #e8eadd; font-size: 18px; font-family: 'Oxygen', sans-serif; margin: 5px 0px 2px 0px;}
+
+.ADD_Produit_Picture {width: 45%; margin-bottom: 15px;}
+.ADD_Produit_Picture label {font-size: 15px; font-family: 'Oxygen', sans-serif;}
+.ADD_Produit_Picture input {width: 98%; padding: 8px 0px 8px 15px; border: none; background: #e8eadd; font-size: 18px; font-family: 'Oxygen', sans-serif; margin: 5px 0px 2px 0px;}
+.ADD_Produit_Picture h4 {margin: 5px 0px; font-size: 12px; font-family: 'Oxygen', sans-serif;}
+
+.ADD_Produit_Button input {padding: 7px 25px; border: none; cursor: pointer; background: #7c8e54; color: #fff; border-radius: 3px; font-family: 'Oxygen', sans-serif;}
+
+/*     Contenu "All commandes"     */
+#Liste_Commande {float: left; width: 80%; padding-left: 2%;}
+.Table_Commande:hover {background: #e8eadd; color: #000;}
+.Table_Commande td {text-align: center; font-family: 'Oxygen', sans-serif;}
+
+/*     Contenu "All commandes"     */
+#Liste_Panier {float: left; width: 80%; padding-left: 2%;}
+.Table_Panier:hover {background: #e8eadd; color: #000;}
+.Table_Panier td {text-align: center; font-family: 'Oxygen', sans-serif;}

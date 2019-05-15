@@ -1,0 +1,323 @@
+
+html, body {margin: 0; padding: 0;}
+
+
+/*     Menu "users" non connecter    */
+#barre_menu {background: #7c8e54 ;color: #e8eadd;}
+#Menu {width: 70%; height: 60px; margin: 0 auto; padding: 5px 0px;}
+#logo {width: 30%; float: left; height: 60px;}
+#logo a {color: #e8eadd;}
+.logo_images {background-image: url("../images/icones/lotus.svg"); width: 60px; height: 60px; background-size: cover; float: left;}
+.logo_texts {float: left; line-height: 60px;}
+.logo_texts h1 {margin: 0; font-size: 30px;  padding-left: 10px; font-family: 'Arvo', serif;}
+#option_menu {float: right;}
+.icone_panier {background-image: url("../images/icones/shopping-cart.svg"); width: 35px; height: 35px; background-size: cover; margin-top: 14px; margin-left: 10px;}
+#liste_menu {width: 60%; float: right;}
+.ul_menu {margin: 0; padding: 0; list-style: none; text-align: right;}
+.ul_menu li {display: inline-block; padding: 0px 5px; line-height: 60px;}
+.ul_menu li a {text-decoration: none;}
+.ul_menu li a h2 {margin: 0; font-size: 15px; color: #e8eadd; font-family: 'Oxygen', sans-serif;}
+.ul_menu li a h2:hover {color: #fff;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*     Footer "users" non connecter     */
+#Footer {width: 100%; background: #7c8e54; color: #e8eadd; font-family: 'Oxygen', sans-serif;}
+.Footer_Menu {width: 60%; margin: 0 auto; line-height: 60px; padding-top: 25px;}
+.Footer_Menu ul {padding: 0; list-style: none; text-align: center; margin: 0;}
+.Footer_Menu ul li {display: inline-block; padding: 0 15px; line-height: 0px;}
+.Footer_Menu ul li a {text-decoration: none; color: #e8eadd}
+.Footer_Menu ul li a h2 {font-size: 17px;}
+.Footer_Cpyright p {text-align: center; padding: 0px 0px 15px 0px; margin: 0; font-size: 14px;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*     Contenu page "Connexion"     */
+#Connexion {width: 75%; margin: 40px auto; position: relative; height: 700px;}
+.Connexion_Image {background-image: url("../images/Bambou.jpg"); background-size: cover; width: 100%; position: absolute; height: 700px; border-radius: 3px;}
+.Connexion_Formulaire {position: absolute; width: 30%;margin: 10% 35%; background: #e8eadd; border-radius: 5px;}
+.Connexion_Formulaire h3 {text-align: center; margin: 20px 0px; font-size: 25px; font-family: 'Oxygen', sans-serif; color: #000000}
+.Connexion_Form_Login {width: 100%; margin-bottom: 25px;}
+.Connexion_Form_Login label p {padding-left: 5%; font-size: 15px; color: #000000; font-family: 'Oxygen', sans-serif;}
+.Connexion_Form_Login input {width: 80%; border: none; padding: 10px; border-radius: 3px; margin-left: 7%; font-family: 'Oxygen', sans-serif; color: #000000;}
+.Connexion_Form_Password {width: 100%; margin-bottom: 25px;}
+.Connexion_Form_Password label p {padding-left: 5%; font-size: 15px; color: #000000; font-family: 'Oxygen', sans-serif;}
+.Connexion_Form_Password input {width: 80%; border: none; padding: 10px; border-radius: 3px; margin-left: 7%; font-family: 'Oxygen', sans-serif; color: #000000;}
+.Connexion_Form_Boutton {width: 100%; margin: 0px 0px 20px 0px;}
+.Connexion_Form_Boutton input {width: 40%; padding: 10px; margin: 0% 30%; border: 0px solid #ffffff; border-radius: 5px; background: #7c8e54; color: #fff;}
+.Connexion_Form_Error p {text-align: center; color: #fff; font-family: 'Oxygen', sans-serif; margin: 0; background: red; font-size: 20px; border-radius: 0px 0px 5px 5px;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*     Contenu page "Home" */
+
+/*  section "Header"   */
+#Home_Header {width: 70%; margin: 10px auto; position: relative; height: 500px;}
+.Home_images_header {background-image: url("../images/aloe-news.jpg"); background-size: cover; width: 100%; height: 500px; position: absolute;}
+.Home_texte_header {position: absolute; width: 100%;}
+.Home_texte_header a {text-decoration: none; color: #ffffff;}
+.Home_texte_header h3 {width: 50%; margin: 18% auto 0% 0%; text-align: center; font-size: 40px; font-family: 'Arvo', serif;}
+.Home_texte_header h3:hover {font-size: 45px;}
+
+/*   section "populaire"   */
+#Home_Populaire {width: 70%; margin: 25px auto 20px auto;}
+.Home_Populaire_Titre  {background: #7c8e54; width: 60%; border-radius: 0px 5px 5px 0px;}
+.Home_Populaire_Titre p {margin: 0; line-height: 60px; font-size: 20px; color: #ffffff; font-family: 'Oxygen', sans-serif; padding-left: 40px;}
+#Home_Populaire_Produit {width: 100%; margin: 2% 0%;}
+.Home_Produits_Populaire {display: inline-block; width: 17%; height: 280px; margin: 1%; border-radius: 3px;}
+.Home_Produits_Populaire a {color: #7c8e54; text-decoration: none;}
+.Home_Produits_Populaire:hover {background: #e8eadd; border-radius: 3px;}
+.Home_Info_Produits_Populaire h2 {margin: 0px 0px 0px 0px; text-align: center; padding: 10px 0px 5px 0px; font-size: 19px; font-family: 'Oxygen', sans-serif;}
+.Home_Info_Produits_Populaire h3 {margin: 0px 0px 0px 0px; text-align: center; padding: 0px 0px 13px 0px; font-size: 15px; font-family: 'Oxygen', sans-serif;}
+
+/*     section "Livraison"     */
+#Home_Livraison {width: 70%; margin: 50px auto; height: 150px; border-radius: 5px; background: #e8eadd; color: #000;}
+.Home_Livraison_Block {width: 20%; margin: 0% 2.5%; float: left;}
+.Home_Livraison_Block h4 {text-align: center; font-family: 'Oxygen', sans-serif;}
+.Home_Livraison_Block p {text-align: center; font-family: 'Oxygen', sans-serif;}
+/*     section "Barre"     */
+.Home_Barre {width: 70%; margin: 0 auto; height: 1px; background: #7c8e54;}
+/*     section "Univers"     */
+#Home_Univers {width: 70%; margin: 0 auto; height: 500px;}
+.Home_Univers_Titre h2 {text-align: center; margin: 20px 0px 30px 0px; font-family: 'Oxygen', sans-serif;}
+.Home_Univers_Block {float: left; width: 20%; margin: 0 2.5%; position: relative; height: 400px;}
+.Home_Univers_Block_Image1 {background-image: url("../images/idee-plante.jpg"); background-size: cover; width: 100%; height: 400px; position: absolute;}
+.Home_Univers_Block_Image2 {background-image: url("../images/lakesPlante.jpg"); background-size: cover; width: 100%; height: 400px; position: absolute;}
+.Home_Univers_Block_Image3 {background-image: url("../images/0014.jpg"); background-size: cover; width: 100%; height: 400px; position: absolute;}
+.Home_Univers_Block_Image4 {background-image: url("../images/paysages.jpg"); background-size: cover; width: 100%; height: 400px; position: absolute;}
+.Home_Univers_Block_Titre {position: absolute; text-align: center; width: 100%; background: #7c8e54;}
+.Home_Univers_Block_Titre h2 {font-size: 18px; color: #e8eadd; font-family: 'Oxygen', sans-serif;}
+.Home_Univers_Block_Boutton {position: absolute; width: 90%; bottom: 0%; text-align: center; padding: 5%; background: #7c8e54;}
+.Home_Univers_Block_Boutton a {color: #e8eadd; font-size: 20px; text-decoration: none; font-family: 'Oxygen', sans-serif; font-weight: bold;}
+.Home_Univers_Block_Boutton a:hover {color: #ffffff;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*     Contenu  page "404"     */
+#Error {width: 75%; margin: 40px auto; position: relative; height: 700px;}
+.Error_Image {background-image: url("../images/paysages.jpg"); background-size: cover; width: 100%; position: absolute; height: 700px; border-radius: 3px;}
+.Error_Text {position: absolute; width: 40%; margin: 20% 30% 0% 30%; text-align: center;}
+.Error_Text p {margin: 0; font-size: 90px; color: #fff; font-family: 'Oxygen', sans-serif;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*     Contenu page "Register"     */
+#Register {width: 75%; margin: 40px auto; position: relative; height: 800px;}
+.Register_Image {background-image: url("../images/Bambou.jpg"); background-size: cover; width: 100%; position: absolute; height: 800px; border-radius: 3px;}
+.Register_Formulaire {position: absolute; width: 30%;margin: 5% 35%; background: #e8eadd; border-radius: 5px;}
+.Register_Formulaire h3 {text-align: center; margin: 20px 0px; font-size: 25px; font-family: 'Oxygen', sans-serif; color: #000000;}
+.Register_Form {width: 100%; margin-bottom: 25px;}
+.Register_Form label p {padding-left: 5%; font-size: 15px; color: #000000; font-family: 'Oxygen', sans-serif;}
+.Register_Form input {width: 80%; border: none; padding: 10px; border-radius: 3px; margin-left: 7%; font-family: 'Oxygen', sans-serif; color: #000000;}
+.Register_Form_Boutton {width: 100%; margin: 0px 0px 20px 0px;}
+.Register_Form_Boutton input {width: 40%; padding: 10px; margin: 0% 30%; border: 0px solid #ffffff; border-radius: 5px; background: #7c8e54; color: #fff;}
+.Register_Error p {text-align: center; color: #fff; font-family: 'Oxygen', sans-serif; margin: 0; background: red; font-size: 20px; border-radius: 0px 0px 5px 5px;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*     Contenu page "Profil"     */
+#Profil {width: 90%; margin: 1% auto;}
+#Profil_Info_Users {float: left; width: 28%; background: #fff; box-shadow: 0px 0px 5px -2px #000; margin-right: 2%; border-radius: 15px;}
+#Profil_Info_Users h3 {text-align: center; font-size: 20px; color: #ffffff; border-radius: 15px 15px 0px 0px; background: #7c8e54; margin: 0% 0% 4% 0%; padding: 15px 0px; font-family: 'Oxygen', sans-serif;}
+#Profil_Info_Users h4 {width: 60%; padding: 6px 6px 6px 15px; background: red; color: #fff; font-weight: bolder; font-family: 'Oxygen', sans-serif; border-radius: 5px; margin: 0px auto 10px auto; text-align: center;}
+.Button_Profil form input {border: none; padding: 10px 20px; background: #7c8e54; color: #fff; border-radius: 10px; margin: 1% 25% 3% 25%; width: 50%; cursor: pointer; }
+.Profil_Info_Form {padding-left: 25px;}
+.Profil_Info_Form p {font-size: 17px; font-family: 'Oxygen', sans-serif;}
+.Profil_Info_Form p strong {font-size: 18px; font-family: 'Oxygen', sans-serif;}
+.Profil_Info_Form_Ligne {margin: 2% 0%; height: 40px;}
+.Profil_Info_Form_Ligne label {float: left; line-height: 28px; font-size: 17px; font-family: 'Oxygen', sans-serif;}
+.Profil_Info_Form_Ligne input {float: right; width: 70%; margin-right: 10%; padding: 6px 0px 6px 5px; border: none; background: #e8eadd;}
+.Button_Modife_Profil input {border: none; padding: 10px 20px; background: #7c8e54; color: #fff; border-radius: 10px; margin: 1% 34% 3% 32%; width: 30%; cursor: pointer;}
+
+#Profil_Info_Commande {display: inline-block; width: 70%; border-radius: 15px; font-family: 'Oxygen', sans-serif;}
+#Profil_Info_Commande h3 {text-align: center; font-size: 20px; color: #ffffff; border-radius: 10px 10px 10px 10px; background: #7c8e54; margin: 0% 0% 1% 0%; padding: 15px 0px; font-family: 'Oxygen', sans-serif;}
+.Profile_Commmande {width: 100%; background: #e8eadd; border-radius: 15px; margin: 2% 0% 2% 0%; padding-bottom: 15px;}
+.Profile_Commmande_Info {width: 100%}
+.Profile_Commmande_Info ul {margin: 0; list-style: none; padding-top: 5px; padding-left: 30px;}
+.Profile_Commmande_Produit table {width: 95%; margin: 0% 2.5%;}
+.Profile_Commmande_Produit table tr td {text-align: center;}
+.Table_Menu {background: #7c8e54; text-align: center;}
+.Profile_Commmande_Total {height: 50px; width: 60%; margin: 0px auto;}
+
+.Profile_Commmande_Total_Text {width: 33%; float: left; text-align: center;}
+.Profile_Commmande_Total_Text p {margin: 5px 0px 3px 0px;}
+.Profile_Commmande_Total_Text h4 {margin: 0;}
+
+.Profile_Commmande_Text_Tva {width: 33%; float: left; text-align: center;}
+.Profile_Commmande_Text_Tva p {margin: 5px 0px 3px 0px;}
+.Profile_Commmande_Text_Tva h4 {margin: 0;}
+
+.Profile_Commmande_Text_TTC {width: 33%; float: left; text-align: center;}
+.Profile_Commmande_Text_TTC p {margin: 5px 0px 3px 0px;}
+.Profile_Commmande_Text_TTC h4 {margin: 0;}
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*     Contenu page "Plantes fleuries"     */
+
+#PlantesFleuries {width: 60%; margin: 50px auto 0px auto;}
+.PlantesFleuries_Titre h2 {margin: 0px 0px 10px 0px; padding-left: 40px; font-size: 25px; color: #000000; font-family: 'Oxygen', sans-serif;}
+.PlantesFleuries_Barre {width: 100%; background: #7c8e54; height: 5px; border-radius: 5px;}
+.PlantesFleuries_Recherche {width: 100%; padding-top: 15px; padding-bottom: 10px; background: #e8eadd; border-radius: 5px;}
+.PlantesFleuries_Recherche form {padding-left: 3%;}
+.PlantesFleuries_Recherche label {display: inline; color: #7c8e54; font-family: 'Oxygen', sans-serif;}
+.PlantesFleuries_Recherche p {padding-left: 3%; margin: 10px 0px 5px 0px; font-size: 13px; font-family: 'Oxygen', sans-serif;}
+.PlantesFleuries_Recherche_Text {display: inline; padding-left: 15px;}
+.PlantesFleuries_Recherche_Text input {width: 35%; padding: 8px; color: #000; border: none; font-family: 'Oxygen', sans-serif;}
+.PlantesFleuries_Recherche_Button {display: inline; padding-left: 5px;}
+.PlantesFleuries_Recherche_Button input {padding: 8px 20px; color: #e8eadd; background: #7c8e54; border: 0px; font-family: 'Oxygen', sans-serif; cursor: pointer;}
+.PlantesFleuries_Trier {width: 100%; padding-top: 15px; padding-bottom: 10px; background: #e8eadd; border-radius: 5px; margin-top: 15px; margin-bottom: 15px;}
+.PlantesFleuries_Trier span label {margin: 0px 0px 0px 0px; padding-left: 3%; display: inline; line-height: 40px; font-size: 16px; color: #7c8e54; font-family: 'Oxygen', sans-serif; padding-right: 5%;}
+.PlantesFleuries_Trier_Form {display: inline;}
+.PlantesFleuries_Trier_Form form {display: inline;}
+.PlantesFleuries_Trier_Form_Croissant {display: inline; padding-right: 2%;}
+.PlantesFleuries_Trier_Form_Croissant label {font-size: 15px; font-family: 'Oxygen', sans-serif;}
+.PlantesFleuries_Trier_Form_Croissant input {margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;}
+.PlantesFleuries_Trier_Form_Button {display: inline;}
+.PlantesFleuries_Trier_Form_Button input {padding: 8px 20px; color: #e8eadd; background: #7c8e54; border: 0px; font-family: 'Oxygen', sans-serif; cursor: pointer;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*     Contenu page "Plantes Vertes     */
+
+#PlantesVertes {width: 60%; margin: 50px auto 0px auto;}
+.PlantesVertes_Titre h2 {margin: 0px 0px 10px 0px; padding-left: 40px; font-size: 25px; color: #000000; font-family: 'Oxygen', sans-serif;}
+.PlantesVertes_Barre {width: 100%; background: #7c8e54; height: 5px; border-radius: 5px;}
+.PlantesVertes_Recherche {width: 100%; padding-top: 15px; padding-bottom: 10px; background: #e8eadd; border-radius: 5px;}
+.PlantesVertes_Recherche form {padding-left: 3%;}
+.PlantesVertes_Recherche label {display: inline; color: #7c8e54; font-family: 'Oxygen', sans-serif;}
+.PlantesVertes_Recherche p {padding-left: 3%; margin: 10px 0px 5px 0px; font-size: 13px; font-family: 'Oxygen', sans-serif;}
+.PlantesVertes_Recherche_Text {display: inline; padding-left: 15px;}
+.PlantesVertes_Recherche_Text input {width: 35%; padding: 8px; color: #000; border: none; font-family: 'Oxygen', sans-serif;}
+.PlantesVertes_Recherche_Button {display: inline; padding-left: 5px;}
+.PlantesVertes_Recherche_Button input {padding: 8px 20px; color: #e8eadd; background: #7c8e54; border: 0px; font-family: 'Oxygen', sans-serif; cursor: pointer;}
+.PlantesVertes_Trier {width: 100%; padding-top: 15px; padding-bottom: 10px; background: #e8eadd; border-radius: 5px; margin-top: 15px; margin-bottom: 15px;}
+.PlantesVertes_Trier span label {margin: 0px 0px 0px 0px; padding-left: 3%; display: inline; line-height: 40px; font-size: 16px; color: #7c8e54; font-family: 'Oxygen', sans-serif; padding-right: 5%;}
+.PlantesVertes_Trier_Form {display: inline;}
+.PlantesVertes_Trier_Form form {display: inline;}
+.PlantesVertes_Trier_Form_Croissant {display: inline; padding-right: 2%;}
+.PlantesVertes_Trier_Form_Croissant label {font-size: 15px; font-family: 'Oxygen', sans-serif;}
+.PlantesVertes_Trier_Form_Croissant input {margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;}
+.PlantesVertes_Trier_Form_Button {display: inline;}
+.PlantesVertes_Trier_Form_Button input {padding: 8px 20px; color: #e8eadd; background: #7c8e54; border: 0px; font-family: 'Oxygen', sans-serif; cursor: pointer;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*     Contenu page "Plantes Vertes     */
+
+#PlantesExotiques {width: 60%; margin: 50px auto 0px auto;}
+.PlantesExotiques_Titre h2 {margin: 0px 0px 10px 0px; padding-left: 40px; font-size: 25px; color: #000000; font-family: 'Oxygen', sans-serif;}
+.PlantesExotiques_Barre {width: 100%; background: #7c8e54; height: 5px; border-radius: 5px;}
+.PlantesExotiques_Recherche {width: 100%; padding-top: 15px; padding-bottom: 10px; background: #e8eadd; border-radius: 5px;}
+.PlantesExotiques_Recherche form {padding-left: 3%;}
+.PlantesExotiques_Recherche label {display: inline; color: #7c8e54; font-family: 'Oxygen', sans-serif;}
+.PlantesExotiques_Recherche p {padding-left: 3%; margin: 10px 0px 5px 0px; font-size: 13px; font-family: 'Oxygen', sans-serif;}
+.PlantesExotiques_Recherche_Text {display: inline; padding-left: 15px;}
+.PlantesExotiques_Recherche_Text input {width: 35%; padding: 8px; color: #000; border: none; font-family: 'Oxygen', sans-serif;}
+.PlantesExotiques_Recherche_Button {display: inline; padding-left: 5px;}
+.PlantesExotiques_Recherche_Button input {padding: 8px 20px; color: #e8eadd; background: #7c8e54; border: 0px; font-family: 'Oxygen', sans-serif; cursor: pointer;}
+.PlantesExotiques_Trier {width: 100%; padding-top: 15px; padding-bottom: 10px; background: #e8eadd; border-radius: 5px; margin-top: 15px; margin-bottom: 15px;}
+.PlantesExotiques_Trier span label {margin: 0px 0px 0px 0px; padding-left: 3%; display: inline; line-height: 40px; font-size: 16px; color: #7c8e54; font-family: 'Oxygen', sans-serif; padding-right: 5%;}
+.PlantesExotiques_Trier_Form {display: inline;}
+.PlantesExotiques_Trier_Form form {display: inline;}
+.PlantesExotiques_Trier_Form_Croissant {display: inline; padding-right: 2%;}
+.PlantesExotiques_Trier_Form_Croissant label {font-size: 15px; font-family: 'Oxygen', sans-serif;}
+.PlantesExotiques_Trier_Form_Croissant input {margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;}
+.PlantesExotiques_Trier_Form_Button {display: inline;}
+.PlantesExotiques_Trier_Form_Button input {padding: 8px 20px; color: #e8eadd; background: #7c8e54; border: 0px; font-family: 'Oxygen', sans-serif; cursor: pointer;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*     Contenu page "Produit populaire"     */
+/*     section "Produit"     */
+.Liste_Produit {width: 100%;}
+.Produits {display: inline-block; width: 22.5%; height: 280px; margin: 1%; border-radius: 3px;}
+.Produits a {color: #7c8e54; text-decoration: none;}
+.Produits:hover {background: #e8eadd; border-radius: 3px;}
+.Info_Produits h2 {margin: 0px 0px 0px 0px; text-align: center; padding: 10px 0px 5px 0px; font-size: 20px}
+.Info_Produits h3 {margin: 0px 0px 0px 0px; text-align: center; padding: 0px 0px 13px 0px; font-size: 17px;}
+
+/*     section PlantesFleuries "Produit Populaire"     */
+#PlantesVertes_Populaire {margin-bottom: 30px;}
+#PlantesVertes_Populaire p {margin: 20px 0px 10px 0px; padding-left: 40px; font-size: 20px; color: #000000; font-family: 'Oxygen', sans-serif;}
+#PlantesFleuries_Populaire {margin-bottom: 30px;}
+#PlantesFleuries_Populaire p {margin: 20px 0px 10px 0px; padding-left: 40px; font-size: 20px; color: #000000; font-family: 'Oxygen', sans-serif;}
+#PlantesExotiques_Populaire {margin-bottom: 30px;}
+#PlantesExotiques_Populaire p {margin: 20px 0px 10px 0px; padding-left: 40px; font-size: 20px; color: #000000; font-family: 'Oxygen', sans-serif;}
+.Produits_Populaire {display: inline-block; width: 17%; height: 280px; margin: 1%; border-radius: 3px;}
+.Produits_Populaire a {color: #7c8e54; text-decoration: none;}
+.Produits_Populaire:hover {background: #e8eadd; border-radius: 3px;}
+.Info_Produits_Populaire h2 {margin: 0px 0px 0px 0px; text-align: center; padding: 10px 0px 5px 0px; font-size: 19px; font-family: 'Oxygen', sans-serif;}
+.Info_Produits_Populaire h3 {margin: 0px 0px 0px 0px; text-align: center; padding: 0px 0px 13px 0px; font-size: 15px; font-family: 'Oxygen', sans-serif;}
+
+/*    section affiche "Produit"     */
+.Produit_Selectectionner_Affiche {margin: 2% auto; width: 70%; position: relative;}
+.Produit_Selectectionner_Affiche_Images {height: 300px; background-size: cover; width: 25%; float: left; margin: 2%;}
+.Produit_Selectectionner_Affiche_Info {display: inline-block; width: 60%; height: 340px;}
+.Produit_Selectectionner_Affiche_Name {margin: 7% 0% 0% 0%; padding: 0px 0px 0px 30px;}
+.Produit_Selectectionner_Affiche_Name h2 {margin: 0; font-size: 25px;  font-family: 'Oxygen', sans-serif;}
+.Produit_Selectectionner_Affiche_prix {margin: 20px 0px 10px 0px; padding-left: 20px;}
+.Produit_Selectectionner_Affiche_Icone_Livraison {width: 100%; padding-top: 0px; line-height: 45px;}
+.Produit_Selectectionner_Affiche_Icone_Livraison p {margin: 0; line-height: 40px; padding-left: 8%;}
+.Icone_Livraison {float: left;}
+.Icone_Retrait {float: left;}
+.Produit_Selectectionner_Stocke_True {position: absolute; right: 15%; top: 15%;}
+.Produit_Selectectionner_Stocke_True p {margin: 0; font-size: 20px; color: #ffffff; font-weight: bold; padding: 6px 11px; background: #7c8e54; border-radius: 5px; font-family: 'Oxygen', sans-serif;}
+.Produit_Selectectionner_Stoke_False {position: absolute; right: 15%; top: 15%;}
+.Produit_Selectectionner_Stoke_False p {margin: 0; font-size: 20px; color: #ffffff; font-weight: bold; padding: 6px 11px; background: red; border-radius: 5px; font-family: 'Oxygen', sans-serif;}
+.True_Add_Produit p {margin: 0; padding: 5px 10px; background: #7c8e54; color: #fff; font-size: 15px; font-family: 'Oxygen', sans-serif; font-weight: bold; border-radius: 3px;}
+.False_Add_Produit p {margin: 0; padding: 5px 10px; background: red; color: #fff; font-size: 15px; font-family: 'Oxygen', sans-serif; font-weight: bold; border-radius: 3px;}
+.Button_Add_Panier {margin-top: 20px;}
+.Button_Add_Panier h4 {margin: 10px 30px 0px 20px; float: left; font-size: 30px;}
+.Button_Add_Panier select {margin: 13px 0px 0px 0px; font-family: 'Oxygen', sans-serif;}
+.Button_Add_Panier input {border: none; padding: 5px 15px; font-size: 16px; color: #fff; background: #7c8e54; cursor: pointer; font-family: 'Oxygen', sans-serif;}
+.Produit_Selectectionner_Description {padding: 0px 15px 0px 15px; margin-bottom: 5%;}
+.Produit_Selectectionner_Description h3 {text-align: center; font-size: 20px; font-family: 'Oxygen', sans-serif;}
+.Produit_Selectectionner_Affiche_Description p {text-align: center; font-size: 17px; font-family: 'Oxygen', sans-serif;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*     Contenu page "Panier"     */
+#Panier {width: 70%; margin: 2% auto;}
+.Panier_Title {font-size: 18px; font-family: 'Oxygen', sans-serif; padding: 5px 0px 5px 30px; width: 50%; background: red; color: #fff;}
+.Panier_Title p {margin: 0;}
+.Panier_Univers {width: 80%; margin: 2% auto;}
+.Panier_Univers p {margin: 0; font-size: 17px; font-family: 'Oxygen', sans-serif; padding-bottom: 15px;}
+.Panier_Univers ul {list-style: none; padding: 0%;}
+.Panier_Univers ul li {display: inline; padding: 1% 10%; background: #e8eadd;}
+.Panier_Univers ul li a {text-decoration: none; color: #000;}
+.Panier_Univers ul li:hover {background: #7c8e54;}
+
+#Mon_panier {width: 70%; margin: 1.5% auto; height: 800px;}
+.Panier_Tableau {float: left; width: 60%;}
+.Panier_P {width: 50%; margin-bottom: 20px;}
+.Panier_P p {margin: 0; padding: 7px 0px 7px 30px; border-radius: 3px; background: #7c8e54; color: #fff; font-size: 20px; font-family: 'Oxygen', sans-serif;}
+.Scroll_Panier {height: 500px; overflow: auto; width: 95%}
+.Panier_Tableau_Panier {width: 95%;}
+.Panier_Menu {background: #7c8e54; text-align: center; color: #e8eadd; font-family: 'Oxygen', sans-serif; font-weight: bolder;}
+.Panier_Menu td {padding: 5px 10px 5px 10px;}
+.Panier_Produit {text-align: center; font-family: 'Oxygen', sans-serif; font-weight: bolder;}
+.Barre_Panier {height: 2px; width: 200px; background: #7c8e54;}
+.Panier_Total {width: 280px; float: right; font-family: 'Oxygen', sans-serif;}
+.Panier_Form {float: right; width: 30%;}
+.Panier_Form h1 {text-align: center; font-size: 20px; color: #ffffff; border-radius: 5px 5px 5px 5px; background: #7c8e54; margin: 0% 0% 4% 0%; padding: 15px 0px; font-family: 'Oxygen', sans-serif;}
+.Panier_Form p {width: 94%; padding: 6px 6px 6px 15px; background: red; color: #fff; font-weight: bolder; font-family: 'Oxygen', sans-serif;}
+.Panier_Form form {padding-left: 10px;}
+
+.Panier_Form_Number {width: 100%}
+.Panier_Form_Number label {font-weight: bolder; font-family: 'Oxygen', sans-serif;}
+.Panier_Form_Number input {width: 80%; padding: 6px 6px 6px 10px; margin: 5px 0px 15px 20px; border: none; background: #e8eadd; border-radius: 3px; font-size: 15px;}
+
+.Panier_Form_Rue {width: 100%}
+.Panier_Form_Rue label {font-weight: bolder; font-family: 'Oxygen', sans-serif;}
+.Panier_Form_Rue input {width: 80%; padding: 6px 6px 6px 10px; margin: 5px 0px 15px 20px; border: none; background: #e8eadd; border-radius: 3px; font-size: 15px;}
+
+.Panier_Form_Ville {width: 100%}
+.Panier_Form_Ville label {font-weight: bolder; font-family: 'Oxygen', sans-serif;}
+.Panier_Form_Ville input {width: 80%; padding: 6px 6px 6px 10px; margin: 5px 0px 15px 20px; border: none; background: #e8eadd; border-radius: 3px; font-size: 15px;}
+
+.Panier_Form_Postal {width: 100%}
+.Panier_Form_Postal label {font-weight: bolder; font-family: 'Oxygen', sans-serif;}
+.Panier_Form_Postal input {width: 80%; padding: 6px 6px 6px 10px; margin: 5px 0px 15px 20px; border: none; background: #e8eadd; border-radius: 3px; font-size: 15px;}
+
+.Panier_Form_Button {width: 130px; margin: 5% auto;}
+.Panier_Form_Button input {border-radius: 3px; border: none; padding: 9px 18px; background: #7c8e54; color: #e8eadd; font-weight: bolder; width: 130px;}
